@@ -1,0 +1,7 @@
+<$MKINCDIR/config
+OBJNAME = frame
+INCS = $DOTINC $FTINC $XGINC -Ishr/inc/$OBJNAME
+DEFS = -D_DEFAULT_SOURCE
+ARFLAGS = r
+CFILES = `{ls *.c}
+
